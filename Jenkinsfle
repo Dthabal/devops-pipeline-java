@@ -16,10 +16,7 @@ pipeline{
         defaultValue: 'Dharmendar')
     }
 
-    trigger {
-        pollSCM('* * * * * ')
-
-    }
+    
     options {
       buildDiscarder logRotator(artifactDaysToKeepStr: '', artifactNumToKeepStr: '', daysToKeepStr: '2', numToKeepStr: '2')
     }
