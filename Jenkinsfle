@@ -41,11 +41,12 @@ stages {
                 sh 'mvn compile'
             }
     }
-    }
+
+  }
 
 
 
-  post {
+post {
   always {
     slackSend channel: 'devops', message: 'this is the post message'
   }
