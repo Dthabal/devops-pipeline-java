@@ -45,7 +45,7 @@ stages {
 
 post {
   always {
-    slackSend channel: 'devops', message: 'script complete'
+    slackSend channel: 'devops', message: 'script is now complete'
   }
 }
 
