@@ -16,7 +16,7 @@ pipeline{
         defaultValue: 'Dharmendar')
     }
 
-    trigger {
+    triggers {
         pollSCM('* * * * * ')
 
     }
