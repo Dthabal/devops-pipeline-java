@@ -12,7 +12,7 @@ pipeline{
         description: 'SELECT THE ENV FOR DEPLOYMENT'
         )
         string(name: 'DUMMYSTR',
-        description: 'Just a dummy value'
+        description: 'Just a dummy value',
         defaultValue: 'Dharmendar')
     }
 
